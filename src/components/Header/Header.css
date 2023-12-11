@@ -1,0 +1,38 @@
+.header {
+  background-color: var(--brand-purple);
+  padding-inline: 16px;
+}
+
+.header__inner {
+  height: 80px;
+}
+
+.header__menu {
+  background-color: transparent;
+  border: none;
+}
+
+.header__menu > img {
+  width: 28px;
+  height: 28px;
+}
+
+.header__nav {
+  list-style: none;
+  display: inline-flex;
+  gap: 16px;
+}
+
+.header__nav a {
+  color: var(--white);
+  text-decoration: none;
+  font-weight: 700;
+  line-height: 150%;
+  font-size: 14px;
+
+  transition: 0.3s;
+}
+
+.header__nav a:hover {
+  color: #b86de4;
+}

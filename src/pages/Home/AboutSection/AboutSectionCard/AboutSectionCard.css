@@ -1,0 +1,22 @@
+.card {
+  /* height: 300px; */
+  max-width: 230px;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+}
+
+.card__image {
+  max-width: 64px;
+  object-fit: contain;
+}
+
+.card__title {
+  margin-top: 42px;
+  height: 60px;
+  /* background-color: aqua; */
+}
+
+.card__description {
+  margin-top: 20px;
+}

@@ -1,0 +1,16 @@
+.cta {
+  color: var(--brand-purple);
+  background-color: var(--white);
+  border: none;
+  /* padding: 8px 16px; */
+  padding-inline: 16px;
+  height: 41px;
+  border-radius: 50px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.cta-alt {
+  color: var(--white);
+  background-color: var(--brand-purple);
+}

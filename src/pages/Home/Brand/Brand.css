@@ -1,0 +1,54 @@
+.brand {
+  display: flex;
+  flex-direction: column;
+  gap: 29px;
+  margin-top: 52px;
+  margin-inline: 16px;
+}
+
+.brand h2 {
+  font-size: 36px;
+}
+
+.brand__items {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.brand__items-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 120px;
+}
+
+.brand__items img {
+  width: 128px;
+  height: 100%;
+  object-fit: contain;
+}
+
+/* Making sure images fit on samsung galaxy fold */
+@media (max-width: 319px) {
+  .brand__items img {
+    width: 108px;
+  }
+}
+
+@media (min-width: 768px) {
+  .brand__items {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .brand__items img {
+    width: 116px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .brand__items {
+    grid-template-columns: repeat(5, 1fr);
+  }
+}

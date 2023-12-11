@@ -1,0 +1,41 @@
+.studies {
+  margin-top: 84px;
+  margin-inline: 16px;
+}
+
+/* .studies__items {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+} */
+
+.studies__items {
+  margin-top: 30px;
+  overflow: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 299px);
+  /* scroll-snap-type: x mandatory; */
+  gap: 16px;
+  justify-content: space-between;
+}
+
+.studies__items::-webkit-scrollbar {
+  background: var(--white);
+}
+
+.studies__items::-webkit-scrollbar-thumb {
+  background: var(--brand-purple);
+  border-radius: 20px;
+  width: 5px;
+}
+
+@media (min-width: 768px) {
+  /* .studies__items {
+    flex-direction: row;
+  } */
+
+  .studies__items {
+    grid-template-columns: repeat(3, 399px);
+  }
+}

@@ -1,0 +1,35 @@
+.hero {
+  background-image: url("../../../assets/confidence.jpeg");
+  width: 100%;
+  height: 600px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: var(--white);
+  padding-inline: 16px;
+  padding-bottom: 86px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+
+.hero__content {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+@media (min-width: 768px) {
+  .hero__content h1 {
+    font-size: 48px;
+  }
+
+  .hero__content p {
+    font-size: 20px;
+    max-width: 630px;
+  }
+
+  .hero__content {
+    gap: 28px;
+  }
+}

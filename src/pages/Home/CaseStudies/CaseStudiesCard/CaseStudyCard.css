@@ -1,0 +1,26 @@
+.caseCard {
+  /* max-width: 399px;
+  max-height: 399px; */
+  height: 299px;
+  /* width: 299px; */
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: var(--white);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  gap: 16px;
+  padding: 24px;
+}
+
+.caseCard p {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  .caseCard {
+    height: 399px;
+  }
+}

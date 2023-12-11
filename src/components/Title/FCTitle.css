@@ -1,0 +1,16 @@
+.title {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.title__line {
+  height: 4px;
+  width: 25px;
+  background-color: #d100c9;
+}
+
+.title__text {
+  font-size: 20px;
+  /* font-weight: 400; */
+}

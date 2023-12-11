@@ -1,0 +1,19 @@
+.aboutSection {
+  margin-top: 34px;
+  display: grid;
+  gap: 25px;
+  justify-content: center;
+}
+
+@media (min-width: 768px) {
+  .aboutSection {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .aboutSection {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
